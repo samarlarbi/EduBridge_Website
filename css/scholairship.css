@@ -1,0 +1,410 @@
+body{
+    margin: 0;
+    background-color: #f1efef;
+}
+
+.main {
+    background-image:     linear-gradient(to left top,rgba(0, 0, 0, 0.4), rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.4)), 
+    url("../img/StockCake-Studious\ Library\ Atmosphere_1712368751.jpg");
+    /* linear-gradient(to left top,#0b3a23, rgba(117, 19, 93, 0), rgba(117, 19, 93, 0)), */
+    /* url("https://www.familyvacationcritic.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/sites/19/2016/03/teens-high-school-study-abroad.jpg.webp"); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .span {
+    color: white;
+    font-family: Century Gothic;
+    font-style: italic;
+  }
+.logo {
+    z-index: 5;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    /* text-align: center; */
+    position: sticky;
+    padding: 10px 0px 10px;
+    top: 0px;
+    font-family: Century Gothic;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #14280d, rgba(117, 19, 93, 0));
+    background-color: #203e16;
+    background-image: none;
+    color: #bc9600ce;
+    transition: all 0.4s ease-in-out;
+    }
+  .navbar {
+      background-color: transparent;
+      width: 100%;
+   z-index: 5;
+      position: fixed;
+      transition: all 0.4s ease-in-out; }
+    .navbar.scrolled {
+        background-color: white; 
+    }
+    .case {
+        display: inline-flex;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        font-family:  Century Gothic;  
+        padding: 10px 10px 10px;
+        transition: all 0.4s ease-in-out;
+        border-bottom: 4px #fff solid; 
+    }
+    
+  .case:hover {
+    border-bottom: 4px #203e16 solid;  }
+.titre1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+      .search{
+    background-color: white;
+    display: flex;
+    width: 30%
+}
+.universitename
+{
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+}
+.searchbutton
+{
+    background-color: #34522a;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30%;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 100px;
+}
+.degrees{
+padding: 1%;
+width: 100%;
+padding-left: 4%;
+padding-right: 4%;
+text-align: center;
+height: fit-content;
+
+}
+.fixed{
+    position: sticky;
+top: 13vh;
+height: fit-content;
+}
+.Dtitre{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.degree{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 115, 115);
+    transition: all 0.4s ease-in-out;
+
+}
+.degree:hover{
+  color: #bc9600ce;
+}
+img{
+    border-radius: 50px;
+}
+.list{
+    width: 70%;
+    
+}
+
+
+
+
+.unv{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top:  3%;
+
+    box-shadow: 0 2px 2px 0 rgba(125, 124, 124, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease-in-out;
+
+}
+.nameuniv{
+    text-decoration: none;
+font-size: small;
+font-weight: 100;
+    color: #bc9600ce;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    color: black;
+    font-size: large;
+}
+.degreetype{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 13px;
+    color: #34522a;
+}
+.scholairshipname{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+option{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+optgroup{
+    margin-top: 3px;
+}
+hr{
+    height: 1px; background-color:black
+}
+.selectselect{
+    
+    width: 130%;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.condition{
+    font-family:Baskerville Old Face;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.containertwo{
+ background-color: #b0ab96ce;
+ padding: 3%;
+}
+.containerCondition{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.containerCondition .Dtitre{
+    font-size: 30px;
+}
+.DEG{
+    padding-right: 10%;
+    border-left: 1px solid #000;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 20px;
+
+}
+ .Dtitre{
+font-family: Felix Titling;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.a{
+    
+
+    list-style: none;
+    font-weight: 550;
+    font-size: 20px;
+}
+li :hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(13, 13, 13);
+    
+display: flex;
+flex-wrap: wrap;
+  }
+  .logo3 {
+    color: #bc9600ce;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    font-family: Century Gothic;
+    font-weight: bold;
+    margin-top: -5%;
+  }
+  .span3 {
+    color: #fff;
+  }
+  
+  h5{
+    color: rgb(197, 197, 192);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  
+  }
+  .linkf{
+    color: rgb(182, 180, 180);
+    text-decoration: none;
+    
+  }
+  .socialmedia{
+    margin-top: 10%;
+  text-align: center;
+  border-left: #a09b9b 1px solid;
+  padding-left: 20px;
+  height: 90%;
+  
+  }
+  .help{
+    border-left: #a09b9b 1px solid;
+  padding-left: 20px;
+  height: 90%;
+  }
+  .icon{
+    text-decoration: none;
+  
+    color: white;
+  
+    font-size: 20px;
+  }
+  .secon{
+    padding: 50px;
+    
+  }
+  .third{
+  
+    padding: 50px;
+  text-align: justify;
+  }
+  .one{
+    padding: 50px;
+  }
+  .a{
+    text-align: justify;
+  }
+  @media screen and (max-width: 800px) {
+    .main{
+      background-image:none;
+      background-color: #f3f1f1;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo{background-color: #203e16;
+    background-image: none;}
+    .navbar{
+      background-color: #fff;padding: 0px;
+    }
+    .case{
+      color: #000;
+    }
+    .titre1{
+      color: #000;
+    }
+    .inscrivez{width: 50%;
+    height: 50px;}
+    .divone{
+      display: none;
+    }
+    .container{
+      padding: 0px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      justify-content: center;
+    }
+    .univ1,.univ2,.univ3,.univ4{
+      margin-top: 10%;
+
+    }
+    .degrees{
+      width: 25em; 
+      padding-bottom: 20px;
+background-color: #f6f6f6;
+    }
+    .degree{
+display: inline; 
+margin-left: 0%; 
+}
+   .universities{
+    height: 100em;
+    width: 70%;
+    margin-left: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+  
+   }
+    .txt{
+      font-size: 50px;
+    
+      width: 90%;
+padding: 0px;
+    }
+    .div{
+    
+      padding: 0;
+    }
+    .static_componet{
+      width: 40%;
+      margin-top: 2%;
+    }
+    .static_componet:hover{
+      width: 41%;
+    }
+    .container.one{padding: 0px;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+  align-items: center;}
+    .img{
+      display: none;
+    }
+    .text1{    
+      width: 90%; 
+    justify-content: center;   }
+    .comment{
+      width: 50%;
+    }
+    .footer{
+display: flex;
+flex-wrap: wrap;
+    }
+    
+  }

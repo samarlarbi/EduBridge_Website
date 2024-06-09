@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/form-emna.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./B__1_-removebg-preview.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"> <span style="margin-left: 10px;">EDU<span class="span">BRIDGE</span> </span></div>
+    <div class="navbar" style="   margin: 0;">
+        <!-- <div class="logo2">EDU<span class="span2">BRIDGE</span></div> -->
+        <div class="allcases">
+        <a href="./acceuil2.html" class="cas">Acceuil</a>
+        <a href="./scholairship.html"class="cas">scholairships</a>
+        <a href="./application.html"class="cas">Conditions</a>
+      </div></div>
+    <form  id="myForm">
+        <div class="container">
+        <h2>Formulaire d'inscription </h2>
+        <p>Bienvenue sur notre système de Candidature Pédagogique en ligne. Pour que votre candidature soit traitée par notre université, vous devez la compléter avant le 1er Juillet 2024.</p>
+        <hr>
+        <h3>Détails Personnels</h3>
+        <br><br>
+        <table cellspacing="1" cellpadding="5">
+            <tr>
+                <td>
+                    <label for="nom">Nom:</label>
+                </td>
+                <td><input class="inp" type="text" id="nom" required ></td>
+                <span id="error"> </span> <br>
+                
+            </tr>
+            <tr>
+                <td> </td>
+                   <td><input class="inp" type="text" id="prenom" required ></td>
+
+            </tr>
+            <tr>
+                <td><label for="Age">Date de naissance:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                <td><input class="inp" type="date" id="Age" required ></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="sexep">Sexe:</p>
+                </td>
+                <td>
+                    <input type="radio" id="femme" name="sexe">
+                    <label  for="femme">Femme</label><br>
+                    <input  type="radio" id="homme" name="sexe">
+                    <label for="homme">Homme</label>
+                    <!-- <select name="Sexe" id="sexe"><option value="Homme">Homme<option value="Femme">Femme</option></option></select> -->
+                </td>
+            </tr>
+            <tr>
+                    <td><label for="nat">Nationalité:</label></td>
+                    <td>
+                        <select name="Nationalite" id="nat">
+                            <option value="Tunisie">Tunisie</option>
+                            <option value="Algerie">Algerie</option>
+                            <option value="Maroc">Maroc</option>
+                            <option value="France">France</option>
+                            <option value="Italie">Italie</option>
+                            <option value="Allemagne">Allemagne</option>
+                            <option value="Suisse">Suisse</option>
+                            <option value="Etats Unis">Etats Unis</option>
+                            <option value="Etats Unis">Egypt</option>
+                            <option value="Etats Unis">Libie</option>
+                            <option value="Etats Unis">UAE</option>
+                            <option value="Etats Unis">Arabie Saudit</option>
+                            <!-- <option value="Etats Unis">UAE</option>
+                            <option value="Etats Unis">UAE</option>
+                            <option value="Etats Unis">UAE</option> -->
+                        </select>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">Email:</label>
+                </td>
+                <td>
+                    <input class="inp" type="mail" id="mail" required placeholder="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="adresse">Adresse:</label>
+                </td>
+                <td>
+                    <input class="inp" type="text"  id="adresse" required placeholder="Nom rue">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input class="inp" type="text"  id="adresse" required placeholder="N° rue">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input class="inp" type="text"  id="adresse" required placeholder="Code Postal">
+                </td>
+            </tr>
+            
+                    
+            
+        </table >
+        <hr>
+        <h3>Niveau Actuel d'Études et Formations Envisagées </h3><br>
+        <br>
+        <table cellspacing="1" cellpadding="5">
+            <tr>
+                <td>
+                    <label for="stat_form">Statut actuel <br> de formation :</label>
+                </td>
+                <td>
+                    <!-- <input class="inp " type="" id="stat_form"> -->
+                    <select name="Statut" id="stat_form">
+                        <option value="Baccalauréat">Baccalauréat</option>
+                        <option value="Licence">Licence</option>
+                        <option value="Master">Master</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ecole">Ecole/Université  envisagée:</label>
+                </td>
+                <td>
+                    <input class="inp " type="text" id="ecole">
+                </td>
+            </tr>    
+            <tr>
+                <td>
+                    <label for="qual">Qualifications:</label>
+                </td>
+                <td>
+                    <input class="inp " type="text" id="qual">
+                </td>
+            </tr>
+            
+        </table>
+       
+        
+        <hr>
+        <h3>Documents de Support et Références</h3><br>
+        <br>
+        <table  cellspacing="3"  cellpadding="5" >
+            <tr>
+                <td><label for="cv">ID/Passeport:</label></td>
+                <td><input class="file" placeholder="Selectionner un fichier" type="file" id="cv" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="diplome">Diplomes:</label>
+                </td>
+                <td>
+                    <input  class="file" placeholder="Selectionner un fichier" type="file" id="diplome" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lm">Lettre de  motivation:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                </td>
+                <td>
+                    <input  class="file"placeholder="Selectionner un fichier" type="file"  id="lm" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <label  for="cert">Image personnelle: </label>
+                </td>
+                <td>
+                    <input placeholder="Selectionner un fichier" class="file" type="file"  id="cert" required>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br><br>
+        <div class="lastbox">
+        <input type="checkbox" required id="cond">
+        <label for="cond">J'accepte les conditions </label><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; <button class="bouton" type="submit">S'inscrire</button>
+        </div><br><br>
+    </div>
+   
+    </form>
+
+    <footer>
+
+
+        <div class="one">    
+          <div class="logo3">EDU<span class="span3">BRIDGE</span></div>
+    
+          <h5>LIENS</h5>
+    
+          <a href="./acceuil2.html"  class="linkf"> Home</a> <br><br>
+          <a href="./application.html" class="linkf">Conditions </a> <br><br>
+          <a href="./scholairship.html" class="linkf">Universités</a><br><br>
+          <!-- <a href="" class="linkf"> les offre</a> -->
+          <br><br>
+         </div>
+    
+        <div class="secon">
+          <div class="help">
+        <h5>AIDE</h5>
+        <a href=""  class="linkf"> FAQ</a> <br><br>
+        <a href="" class="linkf">Support Policy </a> <br><br>
+        <a href="" class="linkf"> Term & condition</a><br><br>
+        <!-- <a href="" class="linkf"> Privacy</a><br><br> -->
+        </div>
+    
+        </div>
+        <div class="third">
+          <div class="socialmedia">
+          <p class="a">  <a href="" class="icon"><i class='bx bxl-facebook-circle'></i> Facebook  </a> <br> 
+            <a href="" class="icon"><i class='bx bxl-instagram-alt' ></i> Instagram </a> <br>
+            <a href="" class="icon"><i class='bx bxl-linkedin-square' ></i> Linkedin  </a> <br>
+            <a href="" class="icon"><i class='bx bxl-twitter'></i> Twitter </a></p>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+<script>
+
+    document.addEventListener('scroll' ,()=>{
+    
+        const logo = document.querySelector('.logo');
+        const nav = document.querySelector('.navbar');
+    if(window.scrollY > 0)
+    {
+    
+        logo.classList.add('scrolled')
+        nav.classList.add('scrolled')
+    }
+    else{
+        logo.classList.remove('scrolled')
+        nav.classList.remove('scrolled')
+    }
+    
+    })
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('myForm');
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault(); //bech ypreventi soumission lin yverifi les controles
+
+        const nomInput = document.getElementById('nom').value;
+        const prenomInput = document.getElementById('prenom').value;
+        const lettersRegex = /^[a-zA-Z\s]+$/;
+        if (!nomInput.match(lettersRegex) || !prenomInput.match(lettersRegex)) {
+            alert('Le nom et le prénom doivent contenir uniquement des lettres.');
+            return;
+        }
+
+
+        const emailInput = document.getElementById('mail').value;
+        const emailRegex = /^[a-z]+[a-z0-9_]*@[a-z]+\.[a-z]{2,}$/;
+        if (!emailInput.match(emailRegex)) {
+            alert('Veuillez saisir une adresse email valide.');
+            return;
+        }
+
+        const adresseInput = document.getElementById('adresse').value;
+        const postalCodeRegex = /^\d{4}$/;
+        const addressRegex = /^[a-zA-Z\s]+\/\s*\d+\s*$/;
+        const [streetName, streetNumber] = adresseInput.split('/');
+        if (!streetName.match(lettersRegex) || !streetNumber.match(/^\d+$/) || !postalCodeRegex.test(streetNumber.trim())) {
+            alert('Veuillez saisir une adresse valide (nom de rue et numéro).');
+            return;
+        }
+
+        const qualInput = document.getElementById('qual').value;
+        const qualificationMinLength = 50;
+        if (qualInput.length < qualificationMinLength) {
+            alert('Ce champ doit contenir au moins 50 caractères.');
+            return;
+        }
+
+        const ageInput = document.getElementById('Age').value;
+        const birthDate = new Date(ageInput);
+        const today = new Date();
+        const age = today.getFullYear() - birthDate.getFullYear();
+        if (age < 18 || age > 40) {
+            alert('Votre âge doit être compris entre 18 et 40 ans.');
+            return;
+        }
+
+        alert('Formulaire validé avec succès ! Soumission en cours...');
+        form.submit(); 
+    });
+});
+
+
+    </script>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Scholarship</title>
+    <link
+      rel="shortcut icon"
+      href="../img/B__1_-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/scholairship.css" />
+  
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage:'en'},
+                'google_translate_element'
+            );
+        }
+
+    </script>
+</head>
+<style>
+  .goog-te-banner {
+            display: none !important;
+        }
+        /* Style the Google Translate button */
+        .goog-te-menu-value {
+            padding: 5px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Hover effect */
+        .goog-te-menu-value:hover {
+            background-color: #45a049; /* Darker green */
+        }
+</style>
+
+<body>
+
+    <!-- This is where the translation widget will appear -->
+    <div class="logo scrolled">    
+    <span style="padding: 20px;">EDU<span class="span">BRIDGE</span></span>     
+  </div>
+    <div class="navbar scrolled">
+
+      <!-- <div class="logo2">EDU<span class="span2">BRIDGE</span></div> -->
+      <div class="allcases">
+        <!-- <a href="#" class="case">
+          <div class="logo3">EDU<span class="span3">BRIDGE</span></div>
+        </a> -->
+        <a href="./acceuil2.html" class="case">HOME</a>
+        <a href="./scholairship.html"class="case">Scholarships
+        <a href="./application.html"class="case">Conditions</a>
+      </div>
+    </div>  
+    <div class="main">
+      <div class="titre1">Find scholarships for 
+        <br />
+        Finance your studies
+
+
+
+      </div>
+      <div class="search">
+        <select name="universitename" id="" class="universitename">
+          <option value="">Find your future university
+
+
+
+            </option
+          ><option value="">Yale</option
+          ><option value="">Stanford</option></select
+        >
+        <button class="searchbutton">Find a scholairship</button>
+      </div>
+  
+    </div>
+    <div class="container">
+      <div class="fixed">
+      <div class="degrees">
+        <h3 class="Dtitre">Degrees</h3>
+        <p class="degree" id="all" onclick="change('all')"  style="   color:#bc5500ce ; background-color: #F5F3F3 ;    box-shadow: 0 1px 1px 0 rgba(125, 124, 124, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    ">ALL</p>
+
+        <p class="degree" id="bachelor" onclick="change('bachelor')" >Bachelor</p>
+        <p class="degree" id="master" onclick="change('master')" >Master</p>
+        <p class="degree" id="doctora" onclick="change('doctora')" >PHD</p>
+      </div>
+ 
+      </div>
+
+      <!-- <div class="scholarshiplist">
+            <div class="scholarship">
+                <img src="./StockCake-Team Collaboration Meeting_1711628042.jpg" alt="" class="log">
+                <div class="info">
+                    <h3 class="unv">UEA Across the Pond Award</h3>
+                </div>
+            </div>
+        </div> -->
+     <div class="list" >
+      <!-- <h3 class="scholairshipname">Bourses Doctorat</h3> -->
+
+
+        <a        href="https://www.stanford.edu/" width="100%" class="unv master doctora" >
+            <img src="../img/Logo_de_L_universite_de_Stanford_1024x1024.webp"
+              width="78"
+              height="78"
+              alt="logo"
+              
+            />
+         <div class="content">
+          <div class="text">
+            <h3 class="scholairshipname">
+              Fulbright Foreign Student Program
+            </h3>
+            <h4 class="nameuniv">Université de Stanford</h4>
+            <p class="description">
+              Bourse prestigieuse offrant aux étudiants étrangers la possibilité de poursuivre des études supérieures aux États-Unis dans divers domaines.
+            </p>
+          </div>
+          <div>
+            <span class="degreetype">
+                <i class='bx bxs-book-bookmark'></i>
+              Master, Doctorat <br>
+            <span class="price"><i class='bx bx-money' ></i>
+              20 000 €</span
+            >
+          </div>
+          </div>
+        </a> 
+
+
+
+
+        <a        href="https://www.princeton.edu/" width="100%" class="unv master" >
+            <img src="../img/Logo_de_Universite_de_Princeton_1024x1024.webp"
+              width="78"
+              height="78"
+              
+              
+            />
+          <div class="content">
+          <div class="text">
+            <h3 class="scholairshipname">Chevening Scholarships</h3>
+            <h4 class="nameuniv">Université de Princeton</h4>
+            <p class="description">
+              Programme de bourses du gouvernement britannique destiné à soutenir des étudiants exceptionnels du monde entier pour des études de master au Royaume-Uni.
+            </p>
+          </div>
+          <div>
+            <span class="degreetype">
+                <i class='bx bxs-book-bookmark'></i>
+              Master<br>
+            <span class="price"
+              ><i class='bx bx-money' ></i>
+              15 000 € </span
+            >
+          </div>
+          </div>
+        </a> 
+        
+        
+        
+        <a   href="https://www.iu.edu/index.html" width="100%" class="unv master" >
+          <img src="../img/Logo_Universite_de_l_Indiana_1024x1024.webp"
+            width="78"
+            height="78"
+            alt="Radboud University logo"
+            
+          />
+         <div class="content">
+        <div class="text">
+          <h3 class="scholairshipname">
+            Erasmus Mundus Scholarships
+          </h3>
+          <h4 class="nameuniv">Université de l'Indiana</h4>
+          <p class="description">
+            Programme de bourses financé par l'Union européenne offrant des possibilités d'études de master conjoints dans plusieurs pays européens.
+          </p>
+        </div>
+        <div>
+          <span class="degreetype">
+              <i class='bx bxs-book-bookmark'></i>
+            Master <br>
+          <span class="price"
+            ><i class='bx bx-money' ></i>
+           20,000€</span
+          >
+        </div>
+        </div>
+      </a> 
+
+
+
+
+      <a        href="https://umich.edu/" width="100%" class="unv doctora master" >
+        <img src="../img/Universite_du_Michigan_1024x1024.webp"
+          width="78"
+          height="78"
+          alt="Radboud University logo"
+          
+        />
+     <div class="content">
+      <div class="text">
+        <h3 class="scholairshipname">
+          Australian Awards Scholarships
+        </h3>
+        <h4 class="nameuniv">Université du Michigan</h4>
+        <p class="description">
+          Bourses du gouvernement australien accordées à des étudiants internationaux exceptionnels pour des études supérieures en Australie, dans divers domaines.
+        </p>
+      </div>
+      <div>
+        <span class="degreetype">
+            <i class='bx bxs-book-bookmark'></i>
+          Master,Doctorat <br>
+        <span class="price"
+          ><i class='bx bx-money' ></i>
+          30,000€</span
+        >
+      </div>
+      </div>
+    </a> 
+
+
+
+
+    <!-- <a        href="" width="100%" class="unv" >
+      <img src=""
+        width="78"
+        height="78"
+        alt="Radboud University logo"
+        
+      />
+    <div class="content">
+    <div class="text">
+      <h3 class="scholairshipname">
+        Swiss Government Excellence Scholarships
+      </h3>
+      <h4 class="nameuniv">Université de Yale</h4>
+      <p class="description">
+        VSBfonds awards grants annually to graduating students who wish to
+        study abroad after their study programme. It is not possible to
+        use this grant for an internship or research project. You
+        personally choose the educational institu...
+      </p>
+    </div>
+    <div>
+      <span class="degreetype">
+          <i class='bx bxs-book-bookmark'></i>
+        Master, Bachelor <br>
+      <span class="price"
+        ><i class='bx bx-money' ></i>
+        Up to 10,000€</span
+      >
+    </div>
+    </div>
+  </a> 
+
+
+ -->
+
+
+  <a        href="https://howard.edu/" width="100%" class="unv master" >
+    <img src="../img/Logo_de_L_universite_Howard_1_1024x1024.webp"
+      width="78"
+      height="78"
+      alt="logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      New Zealand Development Scholarships
+    </h3>
+    <h4 class="nameuniv">L'université Howard</h4>
+    <p class="description">
+      Bourses du gouvernement néo-zélandais visant à soutenir les étudiants des pays en développement pour des études de master en Nouvelle-Zélande.
+      Montant : Couverture des frais de scolarité, allocation de subsistance, frais de voyage. 
+    </p>
+  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Master<br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      12,000€</span
+    >
+  </div>
+  </div>
+  </a> 
+
+
+
+
+  <a        href="https://www.yale.edu/" width="100%" class="unv doctora" >
+    <img src="../img/yaleeee university.png"
+      width="78"
+      height="78"
+      alt="logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      Swiss Government Excellence Scholarships
+    </h3>
+    <h4 class="nameuniv">Université de Yale</h4>
+    <p class="description">
+      Bourses du gouvernement suisse offertes aux chercheurs étrangers hautement qualifiés pour poursuivre un doctorat dans une université suisse.  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Doctorat <br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      22,000€</span
+    >
+  </div>
+  </div>
+  </a>
+
+
+
+
+
+  <a        href="https://www.usc.edu.ph/" width="100%" class="unv bachelor master doctora" >
+    <img src="../img/Logo_de_l_Universite_de_San_Carlos_1024x1024.webp"
+      width="78"
+      height="78"
+      alt="logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      Japanese Government (MEXT) Scholarships
+    </h3>
+    <h4 class="nameuniv"> Université de San Carlos</h4>
+    <p class="description">
+      Bourses offertes par le gouvernement japonais aux étudiants étrangers pour étudier dans des universités japonaises.
+    </p>
+  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Bachelor,Master,Doctorat  <br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      30,000€</span
+    >
+  </div>
+  </div>
+  </a> 
+
+
+
+
+
+  <a        href="https://wsu.edu/" width="100%" class="unv master doctora" >
+    <img src="../img/Logo_de_L_universite_de_l_Etat_de_Washington_1024x1024.webp"
+      width="78"
+      height="78"
+      alt="Radboud University logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      Canada Graduate Scholarships
+    </h3>
+    <h4 class="nameuniv">Université de l'État de Washington</h4>
+    <p class="description">
+      Bourses du gouvernement canadien soutenant les étudiants hautement qualifiés pour des études supérieures dans diverses disciplines.
+    </p>
+  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Master, Doctorat <br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      10,000€</span
+    >
+  </div>
+  </div>
+  </a> 
+
+
+
+
+
+
+
+  <a        href="https://www.stanford.edu/" width="100%" class="unv doctora master" >
+    <img src="../img/Logo_de_L_universite_de_Stanford_1024x1024.webp"
+      width="78"
+      height="78"
+      alt="Radboud University logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      Eiffel Excellence Scholarships
+    </h3>
+    <h4 class="nameuniv">Université de Stanford</h4>
+    <p class="description">
+      Bourses du gouvernement canadien soutenant les étudiants hautement qualifiés pour des études supérieures dans diverses disciplines.
+    </p>
+  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Master, Doctorat <br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      10,000€</span
+    >
+  </div>
+  </div>
+  </a>
+
+
+
+
+  <a        href="https://www.yale.edu/" width="100%" class="unv licence" >
+    <img src="../img/yaleeee university.png"
+      width="78"
+      height="78"
+      alt="logo"
+      
+    />
+   <div class="content">
+  <div class="text">
+    <h3 class="scholairshipname">
+      South Korean Government Scholarship Program
+    </h3>
+    <h4 class="nameuniv">Université de Yale</h4>
+    <p class="description">
+      Bourses du gouvernement sud-coréen offertes aux étudiants étrangers pour étudier dans des universités sud-coréennes.    </p>
+  </div>
+  <div>
+    <span class="degreetype">
+        <i class='bx bxs-book-bookmark'></i>
+      Licence, Master, Doctorat <br>
+    <span class="price"
+      ><i class='bx bx-money' ></i>
+      15,000€</span
+    >
+  </div>
+  </div>
+  </a>
+
+
+
+
+    </div>
+    </div>
+    </div>
+ 
+    <footer>
+
+
+      <div class="one">
+        <div class="logo3">EDU<span class="span3">BRIDGE</span></div>
+  
+        <h5>LIENS</h5>
+  
+        <a href="./acceuil2.html"  class="linkf"> Home</a> <br><br>
+        <a href="./application.html" class="linkf">Conditions </a> <br><br>
+        <a href="./scholairship.html" class="linkf">Universités</a><br><br>
+        <!-- <a href="" class="linkf"> les offre</a> -->
+        <br><br>
+       </div>
+      <div class="secon">
+        <div class="help">
+      <h5>AIDE</h5>
+      <a href=""  class="linkf"> FAQ</a> <br><br>
+      <a href="" class="linkf">Support Policy </a> <br><br>
+      <a href="" class="linkf"> Term & condition</a><br><br>
+      <!-- <a href="" class="linkf"> Privacy</a><br><br> -->
+      </div>
+  
+      </div>
+      <div class="third">
+        <div class="socialmedia">
+        <p class="a">  <a href="" class="icon"><i class='bx bxl-facebook-circle'></i> Facebook  </a> <br> 
+          <a href="" class="icon"><i class='bx bxl-instagram-alt' ></i> Instagram </a> <br>
+          <a href="" class="icon"><i class='bx bxl-linkedin-square' ></i> Linkedin  </a> <br>
+          <a href="" class="icon"><i class='bx bxl-twitter'></i> Twitter </a></p>
+          <div id="google_translate_element" ></div>
+  
+        </div>
+      </div>
+  </footer>
+  <script src="../js/scholarships.js"></script>
+  </body>
+</html>
